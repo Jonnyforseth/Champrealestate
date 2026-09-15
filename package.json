@@ -1,0 +1,8 @@
+{
+  "name": "champ-real-estate",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {"dev": "node dev.mjs", "watch": "node dev.mjs --watch-only", "build": "node build.mjs", "prestart": "node build.mjs", "start": "node --env-file-if-exists=.env server.mjs", "test": "node build.mjs && node --test tests/*.test.mjs"},
+  "engines": {"node": ">=22.9"}
+}
